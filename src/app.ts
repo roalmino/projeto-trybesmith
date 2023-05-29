@@ -2,7 +2,6 @@ import express from 'express';
 import productsController from './controller/productsController';
 import orderController from './controller/orderController';
 import userController from './controller/userController';
-
 import validLogin from './middlewares/validLogin';
 
 const app = express();
